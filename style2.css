@@ -1,0 +1,86 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #4b2e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    text-transform: uppercase;
+}
+/*
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.services {
+    background: #4b2e1e;
+    padding: 20px;
+}
+.services h2 {
+    text-align: center;
+    color: #fff;
+}
+.service {
+    margin: 20px 0;
+}
+.accordion {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 10px;
+}
+.accordion:hover, .active {
+    background-color: #444;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #333;
+}
+    */
+
+
+    nav{
+
+        
+        padding: 10px;      
+        text-align: center;       
+        font-stretch:wider;
+        background-color: rgb(139, 202, 181);
+        border-radius: 1em;
+               
+        }
+
+ 
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
