@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayta</title>
+    <style>
+        .about {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" id="about-tab">About</a></li>
+        </ul>
+    </nav>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>Acerca de Mayta</h2>
+            <p>En Mayta, nos especializamos en ofrecer soluciones residenciales y comerciales que se adaptan a las necesidades específicas de nuestros clientes. Nuestro objetivo es proporcionar servicios de alta calidad y seguridad, asegurando la satisfacción total de quienes confían en nosotros.</p>
+            <p>Contamos con un equipo de profesionales altamente calificados y comprometidos, listos para transformar sus ideas en realidad. Ya sea que necesite remodelaciones, domótica, servicios de vivienda, restauración, electricidad, diseño de interiores o mantenimiento, estamos aquí para ayudarle.</p>
+            <p>Nos enorgullece ofrecer un servicio personalizado, escuchando atentamente a nuestros clientes para entender sus necesidades y superar sus expectativas. En Mayta, su satisfacción es nuestra prioridad.</p>
+            <a href="Services.html" class="btn">Ver Servicios</a> </div>
+            <br>
+            <br>
+            <a href="index.html" class="btn">Inicio</a>
+<br> 
+<br>
+<a><img src="./Mayta/Services/FLYER.jpg" alt=""></a>
+</br>
+
+        </div>
+    </section>
+
+    <script>
+        document.getElementById('about-tab').addEventListener('click', function() {
+            var aboutSection = document.getElementById('about');
+            if (aboutSection.style.display === 'none' || aboutSection.style.display === '') {
+                aboutSection.style.display = 'block';
+            } else {
+                aboutSection.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
