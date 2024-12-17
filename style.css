@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4e4e4ee7;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    background-color: rgb(41, 40, 40);
+    margin: auto;
+    overflow: hidden;
+    max-width: 1200px;
+}
+header {
+    background: #333333bb;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    flex: 1 1 100%;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+header nav {
+    flex: 1 1 100%;
+    text-align: center;
+}
+.services {
+    background: #583420;
+    padding: 20px;
+    text-align: center;
+}
+.services h2 {
+    color: #fff;
+}
+.service {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.service img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.service-info {
+    max-width: 60%;
+}
+.contact {
+    background-color: rgb(43, 42, 42);
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.contact p {
+    margin: 0;
+}
+.contact a {
+    color: #bababb;
+    text-decoration: none;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.login, .service-selection {
+    padding: 20px;
+    background: #833003;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label, form input, form select, form button {
+    margin: 10px 0;
+}
+form button {
+    background: #d1d409;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.service-selection {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service-selection button {
+    background: #0ce0e7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .service img {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto;
+    }
+    .service-info {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    header nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    header nav {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    about {
+        display: none;      
+    }
+
+}
+
